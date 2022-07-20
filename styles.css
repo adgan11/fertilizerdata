@@ -5,11 +5,11 @@ body {
 
 .sel-box {
     background-color: #ffffff;
+    height: 100%;
+    width: 60%;
     text-align: left;
     align-items: left;
     justify-content: left;
-    margin-left: 15%;
-    margin-right: 15%;
     box-shadow: 30px;
     border: 0.2px solid black;
     display: flex;
@@ -20,13 +20,15 @@ li {
 }
 
 .sel-image {
-    margin-top: 2%;
-    width: 100%;
-    height: 100%;
+    margin-left: 30%;
+    margin-right: 15%;
+    width: 62%;
+    height: 70%;
     display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    border: .2px solid black;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
 }
 
 img {
@@ -36,4 +38,25 @@ img {
 
 .heading-sel-box {
     margin-left: 100%;
+}
+
+.sel-country {
+    margin-right: 5%;
+    height: 100%;
+    display: flex;
+    border: .2px solid black;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+
+#add-elements {
+    /*add a scroll effect*/
+    overflow: scroll;
+    height: 500px;
+}
+
+.main {
+    margin: 0 auto;
+    display: flex;
 }
